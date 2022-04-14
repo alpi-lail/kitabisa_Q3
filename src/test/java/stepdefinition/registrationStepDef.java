@@ -17,8 +17,6 @@ public class registrationStepDef extends seleniumHelper {
 
         private final registrationPage RegistrationPage = new registrationPage();
         private final otpPage OtpPage = new otpPage();
-        private final GenericVariables genericVariables = new GenericVariables();
-        WebDriver driver = null;
 
         @Given("user open browser URL")
         public void openBrowser() {
