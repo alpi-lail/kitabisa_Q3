@@ -20,9 +20,10 @@ public class registrationStepDef extends seleniumHelper {
 
         @Given("user open browser URL")
         public void openBrowser() {
-            open("https://accounts.kitabisa.com/register");
+            open(kitabisaUrl);
             System.out.println("User navigate to the open browser");
             sleep(600);
+
 
         }
 
